@@ -4,7 +4,7 @@ import logo from "../../../assets/logo.png"
 function Logo (){
     return(
         <LogoStyled>
-            <img style={{height: '400px'}} src={logo} alt="" />
+            <img style={{height: '280px'}} src={logo} alt="" />
         </LogoStyled>
     )
 }

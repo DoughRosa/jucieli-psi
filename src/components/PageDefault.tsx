@@ -1,15 +1,19 @@
-import Body from "./Body/Body";
+import React from "react";
 import Footer from "./Footer/Footer";
 import HeaderPage from "./Header/Header";
 import PageDefaultStyled from "./PageDefaultStyled";
 
-function PageDefault() {
+interface PageDefaultProps{
+  children: React.ReactNode;
+}
+
+function PageDefault({children}: PageDefaultProps) {
 
   return (
     <>
     <PageDefaultStyled>
       <HeaderPage />
-      <Body/>  
+      {children}
       <Footer data={"Texto"}/>
     </PageDefaultStyled>
     </>

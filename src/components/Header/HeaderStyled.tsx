@@ -7,7 +7,7 @@ const HeaderStyled = styled.header`
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 15vh;
+  height: 100px;
 `;
 
 export default HeaderStyled;

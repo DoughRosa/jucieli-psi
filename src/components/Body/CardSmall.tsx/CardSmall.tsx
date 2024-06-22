@@ -6,12 +6,12 @@ function CardSmall() {
         <CardSmallStyled>
             {livros.map((item) => {
                 return (
-                    <div style={{padding: '10px'}} key={item.nome}>
-                        <img src={item.img} alt={item.nome}/>
+                    <>
+                        <img style={{height: '300px'}} src={item.img} alt={item.nome}/>
                         <div className="cardBody">
                             <h3>{item.nome}</h3>
                         </div>
-                    </div>
+                    </>
                 )
             })}
         </CardSmallStyled>

@@ -6,6 +6,7 @@ const theme = {
     primary: '#f5cec7',
     secondary: '#f4eeed',
     terciary: '#a88dab',
+    quartiary: '#665842',
   },
 };
 

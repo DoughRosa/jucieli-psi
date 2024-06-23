@@ -30,3 +30,10 @@ a {
 a:visited{
   color: #665842;
 }
+
+button:hover{
+  background-color: #f4eeed;
+  border: solid 1px;
+  border-color: #a88dab;
+  cursor: pointer;
+}

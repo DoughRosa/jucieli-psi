@@ -1,10 +1,11 @@
+import ButtonDefaultStyled from "./ButtonDefaultStyle";
+
 interface ButtonDefaultProps {
   label: string;
-  action: () => void;
 }
 
-function ButtonDefault({ action, label }: ButtonDefaultProps) {
-  return <button onClick={action}>{label}</button>;
+function ButtonDefault({ label }: ButtonDefaultProps) {
+  return <ButtonDefaultStyled>{label}</ButtonDefaultStyled>;
 }
 
 export default ButtonDefault;

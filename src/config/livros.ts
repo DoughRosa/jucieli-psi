@@ -34,7 +34,7 @@ const livros = [
     nome: 'Juninho vai ter um Maninho',
     img: juninho,
     url: 'https://www.sinopsyseditora.com.br/livros/juninho-vai-ter-um-maninho-2938',
-    texto: 'AQUI VAI O TEXTO DESCREVENDO O LIVRO',
+    texto: 'QUALQUER COISA AQUI ',
   },
   {
     nome: 'Da Cama Compartilhada ao Meu Próprio Quarto',

@@ -1,5 +1,5 @@
 import Body from "../components/Body/Body";
-import CardSmall from "../components/Body/CardSmall.tsx/CardSmall";
+import CardSmall from "../components/Body/cardSmall/CardSmall";
 import PageDefault from "../components/PageDefault";
 
 function Livros (){

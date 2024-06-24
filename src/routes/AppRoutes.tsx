@@ -4,7 +4,7 @@ import Error404 from '../pages/Error404';
 import Sobre from '../pages/Sobre';
 import Atendimento from '../pages/Atendimento';
 import Livros from '../pages/Livros';
-import Cursos from '../pages/Cursos';
+import Cursos from '../pages/Instagram';
 import Contato from '../pages/Contato';
 
 const router = createBrowserRouter([
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
     element: <Livros />,
   },
   {
-    path: '/cursos',
+    path: '/instagram',
     element: <Cursos />,
   },
   {

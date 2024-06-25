@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./Footer/Footer";
 import HeaderPage from "./Header/Header";
 import PageDefaultStyled from "./PageDefaultStyled";
-import Body from "./Body/Body";
+import Body from "./Main/Main";
 
 interface PageDefaultProps{
   children: React.ReactNode;
@@ -17,7 +17,7 @@ function PageDefault({children}: PageDefaultProps) {
       <Body>
         {children}
       </Body>
-      <Footer data={"Texto"}/>
+      <Footer />
     </PageDefaultStyled>
     </>
   );

@@ -1,13 +1,14 @@
-import React from "react";
-import FooterStyled from "./FooterStyled";
+import FooterStyled from './FooterStyled';
+import Logo from '../Header/logo/logo';
+import DadosFooter from './dadosFooter/Dados';
 
-
-interface FooterPageProps {
-  data: React.ReactNode;
-}
-
-function Footer({ data }: FooterPageProps) {
-  return <FooterStyled>{data}</FooterStyled>;
+function Footer() {
+  return (
+    <FooterStyled>
+      <Logo/>
+      <DadosFooter />
+    </FooterStyled>
+  );
 }
 
 export default Footer;

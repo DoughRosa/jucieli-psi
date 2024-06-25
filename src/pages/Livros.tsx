@@ -1,14 +1,14 @@
-import Body from "../components/Body/Body";
-import CardSmall from "../components/Body/cardSmall/CardSmall";
+import Main from "../components/Main/Main";
+import CardSmall from "../components/Main/cardSmall/CardSmall";
 import PageDefault from "../components/PageDefault";
 
 function Livros (){
   return(
     <>
       <PageDefault>
-        <Body>
+        <Main>
           <CardSmall></CardSmall>
-        </Body>
+        </Main>
       </PageDefault>
     </>
   )

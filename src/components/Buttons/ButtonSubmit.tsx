@@ -1,12 +1,12 @@
 import ButtonDefaultStyled from "./ButtonDefaultStyle";
 
-interface ButtonDefaultProps {
+interface ButtonSubmitProps {
   label: string;
   action: () => void;
 }
 
-function ButtonDefault({ action, label }: ButtonDefaultProps) {
+function ButtonSubmit({ action, label }: ButtonSubmitProps) {
   return <ButtonDefaultStyled onClick={action}>{label}</ButtonDefaultStyled>;
 }
 
-export default ButtonDefault;
+export default ButtonSubmit;

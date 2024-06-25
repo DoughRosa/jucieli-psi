@@ -4,9 +4,10 @@ const FooterStyled = styled.footer`
   background-color: ${(props) => props.theme.colors.secondary};
   color: #fff;
   display: flex;
-  width: 100%;
-  min-height: 15vh;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 15vh;
 `;
 
 export default FooterStyled;

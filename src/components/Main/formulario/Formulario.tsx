@@ -4,13 +4,14 @@ import FormularioStyled from './FormularioStyled';
 
 function Formulario() {
   const whatsAppNumero = '+555199053225';
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [mensagem, setMensagem] = useState('');
+  const [name, setName] = useState<string>('');
+  const [email, setEmail] = useState<string>('');
+  const [mensagem, setMensagem] = useState<string>('');
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
 
     const { name, value } = e.target;
+
     if (name === 'nome') {
       setName(value);
     } else if (name === 'email') {

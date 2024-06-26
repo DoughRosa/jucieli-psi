@@ -6,8 +6,6 @@ const MainStyled = styled.main`
   background-repeat: repeat;
   background-color: ${(props) => props.theme.colors.primary};
   color: #fff;
-  display: flex;
-  justify-content: center;
   min-height: 70vh;
   width: 100%;
 `;
